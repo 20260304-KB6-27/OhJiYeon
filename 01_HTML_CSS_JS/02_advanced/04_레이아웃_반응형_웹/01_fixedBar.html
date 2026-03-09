@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+      }
+
+      /* position fixed: 고정 레이아웃 
+      
+      특징
+      - 스크롤을 내려도 화면의 특정 위치에 고정
+      - 일반적인 문서 흐름에서 제외되어 다른 요소들의 위치를 무시함.
+      */
+
+      .top_bar {
+        background-color: red;
+        height: 50px;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+      }
+      .left_bar {
+        background-color: blue;
+        width: 50px;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+      }
+      .container {
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <div class="container">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+        voluptates nihil cum facilis provident corrupti dolorum repellat totam!
+        Voluptatem fugit iste assumenda quas illo mollitia necessitatibus ipsa.
+        Ad, architecto, voluptatibus aliquid inventore blanditiis, ipsam cum
+        error nulla saepe dolorem necessitatibus nobis aperiam! Reprehenderit
+        similique itaque fuga assumenda officiis veniam, eos ab odit dolor
+        accusantium dolorum aliquam quos id aperiam expedita cupiditate, optio
+        quaerat enim, facere unde facilis laborum consequatur amet. Non quis
+        perferendis, sint, mollitia maiores doloribus similique blanditiis
+        facere minima tempora aliquid reprehenderit sequi. Error voluptate totam
+        velit repudiandae quia quisquam odit! Aliquam nesciunt reprehenderit
+        voluptatum? Illo, illum distinctio?
+      </p>
+    </div>
+  </body>
+</html>
